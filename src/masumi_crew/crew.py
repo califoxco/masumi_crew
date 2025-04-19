@@ -25,7 +25,7 @@ class MasumiCrew():
             config=self.agents_config['apollo_agent'],
             tools=[ApolloSearchTool()],
             verbose=True,
-            llm=LLM(model="deepseek/deepseek-chat", api_key="", temperature=1.5)
+            llm=LLM(model="deepseek/deepseek-chat", api_key="sk-ab1be8aa790a419b90a1da844f202653", temperature=1.5)
         )
 
     # To learn more about structured task outputs,
